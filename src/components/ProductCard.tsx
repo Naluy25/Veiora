@@ -38,7 +38,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             اطلب الآن
           </a>
           <span className="text-xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
-            !{product.price}
+            جنيه {product.price}
           </span>
         </div>
       </div>
