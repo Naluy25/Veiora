@@ -5,25 +5,7 @@ import Footer from './components/Footer';
 import { TowerControl as GameController, Gift, MessageSquare, Gamepad2, Zap, Trophy } from 'lucide-react';
 
 const allProducts = [
-  // Steam Products
-  {
-    id: '1',
-    name: 'حساب ستيم مميز',
-    description: 'حساب ستيم يحتوي على العديد من الألعاب الشهيرة',
-    price: 49.99,
-    category: 'steam-accounts',
-    image: 'https://cdn.discordapp.com/attachments/1140732041957220463/1338909414098472991/steam-platform_2.png?ex=67accc10&is=67ab7a90&hm=c8aa5e13b36a8ae3e0e0d8ce2bb20d5fa510ce2957185e769d82f4d3a323f199&',
-    inStock: true
-  },
-  {
-    id: '2',
-    name: 'بطاقة ستيم 50$',
-    description: 'بطاقة ستيم بقيمة 50 دولار للشراء من متجر Steam',
-    price: 52.99,
-    category: 'steam-gifts',
-    image: 'https://cdn.discordapp.com/attachments/1140732041957220463/1338909414098472991/steam-platform_2.png?ex=67accc10&is=67ab7a90&hm=c8aa5e13b36a8ae3e0e0d8ce2bb20d5fa510ce2957185e769d82f4d3a323f199&',
-    inStock: true
-  },
+
   // Game Credits
    // VALORANT
    {
@@ -357,7 +339,7 @@ const allProducts = [
     category: 'game-credits',
     image: 'https://g.top4top.io/p_33479vj8z1.jpg',
     inStock: true
-  }
+  },
   // Discord Services
   {
     id: '5',
@@ -376,7 +358,26 @@ const allProducts = [
     category: 'discord',
     image: 'https://cdn.discordapp.com/attachments/1140732041957220463/1338909669602885652/121050718_342094887209425_3960567362709536854_n.png?ex=67accc4c&is=67ab7acc&hm=70fef593d071552e898565906afa7d2563f36243b7c17d8d491cdbc3c221c9c6&',
     inStock: true
-  }
+  },
+    // Steam Products
+    {
+      id: '1',
+      name: 'حساب ستيم مميز',
+      description: 'حساب ستيم يحتوي على العديد من الألعاب الشهيرة',
+      price: 49.99,
+      category: 'steam-accounts',
+      image: 'https://cdn.discordapp.com/attachments/1140732041957220463/1338909414098472991/steam-platform_2.png?ex=67accc10&is=67ab7a90&hm=c8aa5e13b36a8ae3e0e0d8ce2bb20d5fa510ce2957185e769d82f4d3a323f199&',
+      inStock: true
+    },
+    {
+      id: '2',
+      name: 'بطاقة ستيم 50$',
+      description: 'بطاقة ستيم بقيمة 50 دولار للشراء من متجر Steam',
+      price: 52.99,
+      category: 'steam-gifts',
+      image: 'https://cdn.discordapp.com/attachments/1140732041957220463/1338909414098472991/steam-platform_2.png?ex=67accc10&is=67ab7a90&hm=c8aa5e13b36a8ae3e0e0d8ce2bb20d5fa510ce2957185e769d82f4d3a323f199&',
+      inStock: true
+    },
 ];
 
 const categories = [
