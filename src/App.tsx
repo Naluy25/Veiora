@@ -25,24 +25,339 @@ const allProducts = [
     inStock: true
   },
   // Game Credits
+   // VALORANT
+   {
+    id: '1',
+    name: '475 Points',
+    description: 'شحن رصيد VALORANT Points',
+    price: 260,
+    category: 'game-credits',
+    image: 'https://j.top4top.io/p_3347fe8ov4.jpg',
+    inStock: true
+  },
+  {
+    id: '2',
+    name: '1,000 Points',
+    description: 'شحن رصيد VALORANT Points',
+    price: 500,
+    category: 'game-credits',
+    image: 'https://j.top4top.io/p_3347fe8ov4.jpg',
+    inStock: true
+  },
   {
     id: '3',
-    name: 'شحن يوسي ببجي موبايل',
-    description: 'شحن رصيد UC مباشر للعبة ببجي موبايل',
-    price: 9.99,
+    name: '2,050 Points',
+    description: 'شحن رصيد VALORANT Points',
+    price: 1000,
     category: 'game-credits',
-    image: 'https://cdn.discordapp.com/attachments/1140732041957220463/1338905118116024390/1-2.png?ex=67acc80f&is=67ab768f&hm=7dfd1eb50ddc9a4d9ea1c6308c460c3bbaf40e789547b1b419c4dc33d4d28779&',
+    image: 'https://j.top4top.io/p_3347fe8ov4.jpg',
     inStock: true
   },
   {
     id: '4',
-    name: 'فالورانت بوينتس',
-    description: 'شحن نقاط فالورانت VP مباشر للحساب',
-    price: 19.99,
+    name: '3,650 Points',
+    description: 'شحن رصيد VALORANT Points',
+    price: 1750,
     category: 'game-credits',
-    image: 'https://cdn.discordapp.com/attachments/1140732041957220463/1338905159786565693/960x0.png?ex=67acc819&is=67ab7699&hm=0739360cfb456a267498c881312b42241a2e42484e0943a17eea6ddf2a33a233&',
+    image: 'https://j.top4top.io/p_3347fe8ov4.jpg',
     inStock: true
   },
+  {
+    id: '5',
+    name: '5,350 Points',
+    description: 'شحن رصيد VALORANT Points',
+    price: 2500,
+    category: 'game-credits',
+    image: 'https://j.top4top.io/p_3347fe8ov4.jpg',
+    inStock: true
+  },
+  {
+    id: '6',
+    name: '11,000 Points',
+    description: 'شحن رصيد VALORANT Points',
+    price: 5000,
+    category: 'game-credits',
+    image: 'https://j.top4top.io/p_3347fe8ov4.jpg',
+    inStock: true
+  },
+
+  // PUBG Mobile
+  {
+    id: '7',
+    name: '60 UC',
+    description: 'شحن رصيد UC للعبة PUBG Mobile',
+    price: 75,
+    category: 'game-credits',
+    image: 'https://k.top4top.io/p_3347y7tq85.jpg',
+    inStock: true
+  },
+  {
+    id: '8',
+    name: '325 UC',
+    description: 'شحن رصيد UC للعبة PUBG Mobile',
+    price: 300,
+    category: 'game-credits',
+    image: 'https://k.top4top.io/p_3347y7tq85.jpg',
+    inStock: true
+  },
+  {
+    id: '9',
+    name: '660 UC',
+    description: 'شحن رصيد UC للعبة PUBG Mobile',
+    price: 545,
+    category: 'game-credits',
+    image: 'https://k.top4top.io/p_3347y7tq85.jpg',
+    inStock: true
+  },
+  {
+    id: '10',
+    name: '1,800 UC',
+    description: 'شحن رصيد UC للعبة PUBG Mobile',
+    price: 1350,
+    category: 'game-credits',
+    image: 'https://k.top4top.io/p_3347y7tq85.jpg',
+    inStock: true
+  },
+  {
+    id: '11',
+    name: '3,850 UC',
+    description: 'شحن رصيد UC للعبة PUBG Mobile',
+    price: 2650,
+    category: 'game-credits',
+    image: 'https://k.top4top.io/p_3347y7tq85.jpg',
+    inStock: true
+  },
+  {
+    id: '12',
+    name: '8,100 UC',
+    description: 'شحن رصيد UC للعبة PUBG Mobile',
+    price: 5250,
+    category: 'game-credits',
+    image: 'https://k.top4top.io/p_3347y7tq85.jpg',
+    inStock: true
+  },
+
+  // League of Legends
+  {
+    id: '13',
+    name: '575 RP',
+    description: 'شحن رصيد RP للعبة League of Legends',
+    price: 250,
+    category: 'game-credits',
+    image: 'https://i.top4top.io/p_3347edypq3.jpg',
+    inStock: true
+  },
+  {
+    id: '14',
+    name: '1,380 RP',
+    description: 'شحن رصيد RP للعبة League of Legends',
+    price: 570,
+    category: 'game-credits',
+    image: 'https://i.top4top.io/p_3347edypq3.jpg',
+    inStock: true
+  },
+  {
+    id: '15',
+    name: '2,800 RP',
+    description: 'شحن رصيد RP للعبة League of Legends',
+    price: 1105,
+    category: 'game-credits',
+    image: 'https://i.top4top.io/p_3347edypq3.jpg',
+    inStock: true
+  },
+  {
+    id: '16',
+    name: '4,500 RP',
+    description: 'شحن رصيد RP للعبة League of Legends',
+    price: 1745,
+    category: 'game-credits',
+    image: 'https://i.top4top.io/p_3347edypq3.jpg',
+    inStock: true
+  },
+  {
+    id: '17',
+    name: '6,500 RP',
+    description: 'شحن رصيد RP للعبة League of Legends',
+    price: 2450,
+    category: 'game-credits',
+    image: 'https://i.top4top.io/p_3347edypq3.jpg',
+    inStock: true
+  },
+  {
+    id: '18',
+    name: '13,500 RP',
+    description: 'شحن رصيد RP للعبة League of Legends',
+    price: 4950,
+    category: 'game-credits',
+    image: 'https://i.top4top.io/p_3347edypq3.jpg',
+    inStock: true
+  },
+
+  // Call of Duty®: Mobile
+  {
+    id: '19',
+    name: '30 CP',
+    description: 'شحن رصيد CP للعبة Call of Duty®: Mobile',
+    price: 25,
+    category: 'game-credits',
+    image: 'https://h.top4top.io/p_3347sb11e2.jpg',
+    inStock: true
+  },
+  {
+    id: '20',
+    name: '80 CP',
+    description: 'شحن رصيد CP للعبة Call of Duty®: Mobile',
+    price: 60,
+    category: 'game-credits',
+    image: 'https://h.top4top.io/p_3347sb11e2.jpg',
+    inStock: true
+  },
+  {
+    id: '21',
+    name: '420 CP',
+    description: 'شحن رصيد CP للعبة Call of Duty®: Mobile',
+    price: 245,
+    category: 'game-credits',
+    image: 'https://h.top4top.io/p_3347sb11e2.jpg',
+    inStock: true
+  },
+  {
+    id: '22',
+    name: '880 CP',
+    description: 'شحن رصيد CP للعبة Call of Duty®: Mobile',
+    price: 480,
+    category: 'game-credits',
+    image: 'https://h.top4top.io/p_3347sb11e2.jpg',
+    inStock: true
+  },
+  {
+    id: '23',
+    name: '2,400 CP',
+    description: 'شحن رصيد CP للعبة Call of Duty®: Mobile',
+    price: 1165,
+    category: 'game-credits',
+    image: 'https://h.top4top.io/p_3347sb11e2.jpg',
+    inStock: true
+  },
+  {
+    id: '24',
+    name: '5,000 CP',
+    description: 'شحن رصيد CP للعبة Call of Duty®: Mobile',
+    price: 2295,
+    category: 'game-credits',
+    image: 'https://h.top4top.io/p_3347sb11e2.jpg',
+    inStock: true
+  },
+  {
+    id: '25',
+    name: '10,800 CP',
+    description: 'شحن رصيد CP للعبة Call of Duty®: Mobile',
+    price: 4560,
+    category: 'game-credits',
+    image: 'https://h.top4top.io/p_3347sb11e2.jpg',
+    inStock: true
+  },
+  {
+    id: '26',
+    name: '21,600 CP',
+    description: 'شحن رصيد CP للعبة Call of Duty®: Mobile',
+    price: 8845,
+    category: 'game-credits',
+    image: 'https://h.top4top.io/p_3347sb11e2.jpg',
+    inStock: true
+  },
+  {
+    id: '27',
+    name: 'For More Contact Us',
+    description: 'تواصل معنا للحصول على عروض خاصة أو كميات أكبر من CP',
+    price: null,
+    category: 'game-credits',
+    image: 'https://h.top4top.io/p_3347sb11e2.jpg',
+    inStock: true
+  },
+
+  // Mobile Legends: Bang Bang
+  {
+    id: '28',
+    name: '31 Diamonds',
+    description: 'شحن رصيد Diamonds للعبة Mobile Legends: Bang Bang',
+    price: 33,
+    category: 'game-credits',
+    image: 'https://g.top4top.io/p_33479vj8z1.jpg',
+    inStock: true
+  },
+  {
+    id: '29',
+    name: '155 Diamonds',
+    description: 'شحن رصيد Diamonds للعبة Mobile Legends: Bang Bang',
+    price: 150,
+    category: 'game-credits',
+    image: 'https://g.top4top.io/p_33479vj8z1.jpg',
+    inStock: true
+  },
+  {
+    id: '30',
+    name: '311 Diamonds',
+    description: 'شحن رصيد Diamonds للعبة Mobile Legends: Bang Bang',
+    price: 298,
+    category: 'game-credits',
+    image: 'https://g.top4top.io/p_33479vj8z1.jpg',
+    inStock: true
+  },
+  {
+    id: '31',
+    name: '949 Diamonds',
+    description: 'شحن رصيد Diamonds للعبة Mobile Legends: Bang Bang',
+    price: 855,
+    category: 'game-credits',
+    image: 'https://g.top4top.io/p_33479vj8z1.jpg',
+    inStock: true
+  },
+  {
+    id: '32',
+    name: '1,617 Diamonds',
+    description: 'شحن رصيد Diamonds للعبة Mobile Legends: Bang Bang',
+    price: 1420,
+    category: 'game-credits',
+    image: 'https://g.top4top.io/p_33479vj8z1.jpg',
+    inStock: true
+  },
+  {
+    id: '33',
+    name: '3,331 Diamonds',
+    description: 'شحن رصيد Diamonds للعبة Mobile Legends: Bang Bang',
+    price: 2815,
+    category: 'game-credits',
+    image: 'https://g.top4top.io/p_33479vj8z1.jpg',
+    inStock: true
+  },
+  {
+    id: '34',
+    name: '4,997 Diamonds',
+    description: 'شحن رصيد Diamonds للعبة Mobile Legends: Bang Bang',
+    price: 4200,
+    category: 'game-credits',
+    image: 'https://g.top4top.io/p_33479vj8z1.jpg',
+    inStock: true
+  },
+  {
+    id: '35',
+    name: '6,718 Diamonds',
+    description: 'شحن رصيد Diamonds للعبة Mobile Legends: Bang Bang',
+    price: 5585,
+    category: 'game-credits',
+    image: 'https://g.top4top.io/p_33479vj8z1.jpg',
+    inStock: true
+  },
+  {
+    id: '36',
+    name: 'For More Contact Us',
+    description: 'تواصل معنا للحصول على عروض خاصة أو كميات أكبر من Diamonds',
+    price: null,
+    category: 'game-credits',
+    image: 'https://g.top4top.io/p_33479vj8z1.jpg',
+    inStock: true
+  }
   // Discord Services
   {
     id: '5',
