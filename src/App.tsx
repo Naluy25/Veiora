@@ -355,10 +355,10 @@ const allProducts = [
       id: '1',
       name: 'حساب ستيم مميز',
       description: 'حساب ستيم يحتوي على العديد من الألعاب الشهيرة',
-      price: 49.99,
+      price: 500,
       category: 'steam-accounts',
-      image: 'https://cdn.discordapp.com/attachments/1140732041957220463/1338909414098472991/steam-platform_2.png?ex=67accc10&is=67ab7a90&hm=c8aa5e13b36a8ae3e0e0d8ce2bb20d5fa510ce2957185e769d82f4d3a323f199&',
-      inStock: true
+      image: 'https://h.top4top.io/p_3351nqab72.png',
+      inStock: false
     },
   {
     id: '1',
