@@ -345,18 +345,9 @@ const allProducts = [
     id: '5',
     name: 'ديسكورد نيترو',
     description: 'اشتراك نيترو لمدة شهر',
-    price: 9.99,
+    price: 250,
     category: 'discord',
-    image: 'https://cdn.discordapp.com/attachments/1140732041957220463/1338909669602885652/121050718_342094887209425_3960567362709536854_n.png?ex=67accc4c&is=67ab7acc&hm=70fef593d071552e898565906afa7d2563f36243b7c17d8d491cdbc3c221c9c6&',
-    inStock: true
-  },
-  {
-    id: '6',
-    name: 'بوست سيرفر ديسكورد',
-    description: 'بوست لسيرفر الديسكورد الخاص بك',
-    price: 4.99,
-    category: 'discord',
-    image: 'https://cdn.discordapp.com/attachments/1140732041957220463/1338909669602885652/121050718_342094887209425_3960567362709536854_n.png?ex=67accc4c&is=67ab7acc&hm=70fef593d071552e898565906afa7d2563f36243b7c17d8d491cdbc3c221c9c6&',
+    image: 'https://g.top4top.io/p_3351evwve1.png',
     inStock: true
   },
     // Steam Products
@@ -369,15 +360,69 @@ const allProducts = [
       image: 'https://cdn.discordapp.com/attachments/1140732041957220463/1338909414098472991/steam-platform_2.png?ex=67accc10&is=67ab7a90&hm=c8aa5e13b36a8ae3e0e0d8ce2bb20d5fa510ce2957185e769d82f4d3a323f199&',
       inStock: true
     },
-    {
-      id: '2',
-      name: 'بطاقة ستيم 50$',
-      description: 'بطاقة ستيم بقيمة 50 دولار للشراء من متجر Steam',
-      price: 52.99,
-      category: 'steam-gifts',
-      image: 'https://cdn.discordapp.com/attachments/1140732041957220463/1338909414098472991/steam-platform_2.png?ex=67accc10&is=67ab7a90&hm=c8aa5e13b36a8ae3e0e0d8ce2bb20d5fa510ce2957185e769d82f4d3a323f199&',
-      inStock: true
-    },
+  {
+    id: '1',
+    name: '1.70 $ Steam Code',
+    description: 'بطاقة ستيم بقيمة 1.70 دولار للشراء من متجر Steam',
+    price: 125,
+    category: 'steam-gifts',
+    image: 'https://h.top4top.io/p_3351nqab72.png',
+    inStock: true
+  },
+  {
+    id: '2',
+    name: '2.50 $ Steam Code',
+    description: 'بطاقة ستيم بقيمة 2.50 دولار للشراء من متجر Steam',
+    price: 190,
+    category: 'steam-gifts',
+    image: 'https://h.top4top.io/p_3351nqab72.png',
+    inStock: true
+  },
+  {
+    id: '3',
+    name: '3.40 $ Steam Code',
+    description: 'بطاقة ستيم بقيمة 3.40 دولار للشراء من متجر Steam',
+    price: 250,
+    category: 'steam-gifts',
+    image: 'https://h.top4top.io/p_3351nqab72.png',
+    inStock: true
+  },
+  {
+    id: '4',
+    name: '5 $ Steam Code',
+    description: 'بطاقة ستيم بقيمة 5 دولار للشراء من متجر Steam',
+    price: 375,
+    category: 'steam-gifts',
+    image: 'https://h.top4top.io/p_3351nqab72.png',
+    inStock: true
+  },
+  {
+    id: '5',
+    name: '10 $ Steam Code',
+    description: 'بطاقة ستيم بقيمة 10 دولار للشراء من متجر Steam',
+    price: 740,
+    category: 'steam-gifts',
+    image: 'https://h.top4top.io/p_3351nqab72.png',
+    inStock: true
+  },
+  {
+    id: '6',
+    name: '20 $ Steam Code',
+    description: 'بطاقة ستيم بقيمة 20 دولار للشراء من متجر Steam',
+    price: 1470,
+    category: 'steam-gifts',
+    image: 'https://h.top4top.io/p_3351nqab72.png',
+    inStock: true
+  },
+  {
+    id: '7',
+    name: '50 $ Steam Code',
+    description: 'بطاقة ستيم بقيمة 50 دولار للشراء من متجر Steam',
+    price: 3650,
+    category: 'steam-gifts',
+    image: 'https://h.top4top.io/p_3351nqab72.png',
+    inStock: true
+  },
 ];
 
 const categories = [
