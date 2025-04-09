@@ -354,8 +354,8 @@ const allProducts = [
     {
       id: '1',
       name: 'حساب ستيم مميز',
-      description: 'حساب ستيم يحتوي على العديد من الألعاب الشهيرة',
-      price: 5000,
+      description: 'غير متوفر الأن',
+      price: غير متوفر,
       category: 'steam-accounts',
       image: 'https://h.top4top.io/p_3351nqab72.png',
       inStock: false
